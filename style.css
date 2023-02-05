@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mulish:wght@500&family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Mochiy+Pop+One&family=Mulish:wght@500&family=Redressed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(218, 2, 254);
+    background: linear-gradient(90deg, rgba(218, 2, 254, 1) 0%, rgba(255, 7, 255, 1) 35%, rgba(255, 0, 129, 1) 100%);
+    overflow: hidden;
+}
+
+h1 {
+    color: rgb(1, 6, 104);
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-top: 55px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 620px;
+    height: 320px;
+    background: #0ff;
+    border: none;
+    margin-top: 106px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 18px #0ff;
+}
+
+label {
+    font-size: 24px;
+    color: #791595;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    width: 100%;
+    display: inline-block;
+    padding: 40px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    margin-top: -12px;
+}
+
+#temp {
+    padding: 11px 16px;
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    outline: none;
+    font-size: 14px;
+    color: #575454;
+    font-family: 'Kanit', sans-serif;
+    width: 146px;
+}
+
+#temp_diff {
+    background: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 18px;
+    padding: 0px 5px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.btn {
+    display: grid;
+    place-items: center;
+    margin-top: 26px;
+}
+
+#bott {
+    padding: 9px 25px;
+    background: #000;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    border: 2px solid #000;
+}
+
+#bott:hover {
+    background: #fff;
+    color: #000000;
+    border: 2px solid #000;
+}
+
+#resultCon {
+    font-size: 28px;
+    color: #410c50;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    padding: 29px;
+}
